@@ -1,4 +1,4 @@
-import socket, sys, hashlib
+import socket, sys, hashlib, os
 
 # Create a datagram socket
 def open_socket(family=socket.AF_INET, socket_type=socket.SOCK_DGRAM, reopening=False):
